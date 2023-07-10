@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=offensive-upgrade
+Name=Offensive Upgrade manager
+Comment=Simple system upgrade manager for Offensive Security OS
+Icon=/usr/share/offensive-update-manager/icons/offensive-upgrade.svg
+Categories=System;Settings;Core;Utility
+

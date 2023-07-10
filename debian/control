@@ -1,0 +1,19 @@
+Source: offensive-update-manager
+Section: offensive
+Priority: optional
+Maintainer: Md Sulaiman<infosulaimanbd@gmail.com>
+Uploaders: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>,
+           Lisetta "Sheireen" Ferrero <sheireen@frozenbox.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: pkg-config
+Homepage: https://offensive-packaging.github.io/
+
+
+Package: offensive-update-manager
+Architecture: all
+Depends: gtkd | gtkdialog, apt-offensive
+Section: offensive
+Priority: optional
+Description: A simple APT update manager frontend for Offensive OS
+ A simple APT update manager frontend for Offensive OS
